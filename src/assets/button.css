@@ -1,0 +1,39 @@
+.button {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15) ;
+  color: #222;
+  border: 1px solid white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sort {
+  background-color:  rgb(248, 217, 15) ;
+}
+
+.sort:hover {
+  background-color: #b28e22;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sort:active {
+  box-shadow: 0 2px #c09a26;
+  transform: translateY(2px);
+}
+
+.newArray {
+  background-color: rgb(248, 217, 15);
+}
+
+.newArray:hover {
+  background-color: #c89828;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:active {
+  transform: translateY(2px);
+}

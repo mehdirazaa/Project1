@@ -1,0 +1,26 @@
+.container3{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.sortingBars{
+    padding-top: 150px;
+}
+
+h5{
+    color:white;
+    font-size: 1.2rem;  
+    display: inline-flex;
+    margin-left: 6px;
+    width: 40px;
+}
+
+.bars {
+    color: rgb(35, 17, 95);
+    width: 40px;
+    margin-left: 6px;
+    border-radius: 16px;
+    display: inline-block;
+}
+  

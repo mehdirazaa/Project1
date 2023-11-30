@@ -1,0 +1,43 @@
+.hero-img {
+    width: 100%;
+    background : pro1;
+    height: 80vh;
+    position: relative;
+}
+
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img::before {
+    content: "";
+    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fexplore&psig=AOvVaw0JdvWMKeS271ZiKknbadtR&ust=1668620773185000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLCxzvXesPsCFQAAAAAdAAAAABAE");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-img h1{
+    font-size: 2.4rem;
+}
+
+.hero-img p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .hero-img h1{
+        font-size: 2rem;
+    }
+}
